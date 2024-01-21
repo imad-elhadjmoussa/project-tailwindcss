@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card button{
+    padding: 3px 5px;
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+}
+.card div{
+    width: 90%;
+}
+.card div h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+.card div p{
+    color: gray;
+}
